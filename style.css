@@ -576,23 +576,24 @@ a:hover {
     color: whitesmoke;
 }
 
-.fields {
+.contact-form {
     display: flex;
+    flex-direction: column;
     justify-content: left;
 }
 
-.fields .name input {
+.contact-form .name input {
     width: 15rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
-.fields .email input {
+.contact-form .email input {
     width: 20rem;
     margin-bottom: 2rem;
 }
 
-.textarea textarea {
+.contact-form textarea {
     margin-top: 2rem;
     width: 37rem;
     height: 18rem;
@@ -605,7 +606,7 @@ a:hover {
     color: whitesmoke;
 }
 
-.fields input {
+.contact-form input {
     border: 0;
     outline: none;
     box-shadow: 0 0 10px whitesmoke, 0 0 20px #13a3f0;
@@ -616,7 +617,7 @@ a:hover {
     color: whitesmoke;
 }
 
-.buttonarea button {
+.contact-form button {
     width: 15rem;
     height: 5rem;
     font-size: large;
@@ -629,7 +630,7 @@ a:hover {
     color: whitesmoke;
 }
 
-.buttonarea button:hover {
+.contact-form button:hover {
     color: whitesmoke;
     box-shadow: 0 0 20px whitesmoke, 0 0 30px #13a3f0;
     cursor: pointer;

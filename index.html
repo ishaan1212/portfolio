@@ -205,21 +205,16 @@
                         Message Me
                     </h3>
                 </div>
-                <form name="contact" method="POST" data-netlify="true">
-                    <div class="fields">
-                        <div class=" name">
-                            <input type="text" placeholder="Name" name="Name" required>
-                        </div>
-                        <div class=" email">
-                            <input type="email" placeholder="Email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="textarea">
-                        <textarea placeholder="Message.." name="message" required></textarea>
-                    </div>
-                    <div class="buttonarea">
-                        <button type="submit">Send message</button>
-                    </div>
+                <form name="contact" method="POST" data-netlify="true" class="contact-form">
+
+                    <input class=" name" type="text" placeholder="Name" name="Name" required>
+
+                    <input type="email" class=" email" placeholder="Email" name="email" required>
+
+                    <textarea placeholder="Message.." name="message" required></textarea>
+
+                    <button type="submit">Send message</button>
+
                 </form>
             </div>
         </div>
