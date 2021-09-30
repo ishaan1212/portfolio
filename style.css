@@ -581,18 +581,18 @@ a:hover {
     justify-content: left;
 }
 
-.name input {
+.fields .name input {
     width: 15rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
-.email input {
+.fields .email input {
     width: 20rem;
     margin-bottom: 2rem;
 }
 
-.field textarea {
+.textarea textarea {
     margin-top: 2rem;
     width: 37rem;
     height: 18rem;
@@ -605,7 +605,7 @@ a:hover {
     color: whitesmoke;
 }
 
-.field input {
+.fields input {
     border: 0;
     outline: none;
     box-shadow: 0 0 10px whitesmoke, 0 0 20px #13a3f0;
@@ -795,10 +795,10 @@ footer {
         text-align: center;
         margin-left: 4rem;
     }
-    .edu1 h1{
+    .edu1 h1 {
         margin-left: 4rem;
     }
-    .time ul{
+    .time ul {
         margin-left: 4rem;
     }
     .cv a {
