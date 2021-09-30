@@ -647,6 +647,10 @@ footer {
     top: 2rem;
 }
 
+.name {
+    margin-bottom: 2rem;
+}
+
 @media(max-width:1200px) {
     html {
         font-size: 14px;
